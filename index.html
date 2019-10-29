@@ -1,45 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Frontend Mentor | Four card feature section</title>
+  </head>
+  <body>
+    <!-- ! Header -->
+    <div class="container">
+      <header id="bag-header">
+        <h1>
+          <span class="span-light">Reliable, efficient delivery</span><br>
+          <span class="span-dark">Powered by Technology</span>
+        </h1>
+        <p class="second-header">
+          Our Artificial Intelligence powered tools use millions of project data
+          points to ensure that your project is successful
+          </p>
+      </header>
+      <!-- ! Section Cards -->
+      <section id="cards">
+        <div class="card supervisor">
+          <h3 class="card-name">Supervisor</h3>
+          <p class="card-description">Monitors activity to identify project roadblocks</p>
+          <img src="images/icon-supervisor.svg" alt="icon" class="card-icon">
+        </div>
+        <div class="middle">
+        <div class="card team-builder">
+          <h3 class="card-name">Team Builder</h3>
+          <p class="card-description">Scans our talent network to create the optimal team for your
+              project</p>
+          <img src="images/icon-team-builder.svg" alt="icon" class="card-icon">
+        </div>
+        <div class="card karma">
+          <h3 class="card-name">Kind</h3>
+          <p class="card-description">Regularly evaluates our talent to ensure quality</p>
+          <img src="images/icon-karma.svg" alt="icon" class="card-icon">
+        </div>
+        </div>
+        <div class="card calculator">
+          <h3 class="card-name">Calculator</h3>
+          <p class="card-description">Uses data from past projects to provide better delivery estimates</p>
+          <img src="images/icon-team-builder.svg" alt="icon" class="card-icon">
+        </div>
+        
+      </section>
+    </div>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Four card feature section</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-  
-  Reliable, efficient delivery
-  Powered by Technology
-
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
-
-  Supervisor
-  Monitors activity to identify project roadblocks
-
-  Team Builder
-  Scans our talent network to create the optimal team for your project
-
-  Karma
-  Regularly evaluates our talent to ensure quality
-
-  Calculator
-  Uses data from past projects to provide better delivery estimates
-
-  
+   
   <footer>
     <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">adrhmnhkm</a>.
     </p>
   </footer>
+
 </body>
 </html>
+
+ <!-- <section id="cards">
+       <div class="card-deck">
+
+          <div class="card c1 p-3 shadow mb-3">
+            <div class="card-header border-white">
+              <h5>Supervisor</h5>
+            </div>
+            <div class="card-body">
+              <p>Monitors activity to identify project roadblocks</p>
+              <img class="rounded float-right"src="images\icon-supervisor.svg" class="rounded float-right" alt="supervisor-img">
+            </div>
+          </div>
+          <div class="card border-white">
+            <div class="card c2 shadow p-3 mb-3">
+              <div class="card-header border-white">
+                <h5>Team Builder</h5>
+              </div>
+              <div class="card-body">
+                <p>Scans our talent network to create the optimal team for your project</p>
+                <img src="images\icon-team-builder.svg" class="rounded float-right" alt="supervisor-img">
+              </div>
+            </div>
+
+            <div class="card c3 shadow p-3 mb-3">
+              <div class="card-header border-white">
+                <h5>Karma</h5>
+              </div>
+              <div class="card-body">
+                <p>Regularly evaluates our talent to ensure quality</p>
+                <img src="images\icon-karma.svg" class="rounded float-right" alt="supervisor-img">
+              </div>
+            </div>
+          </div>
+          <div class="card c4 shadow p-3 mb-3">
+            <div class="card-header border-white">
+              <h5>Calculator</h5>
+            </div>
+            <div class="card-body">
+              <p>Uses data from past projects to provide better delivery estimates</p>
+              <img src="images\icon-calculator.svg" class="rounded float-right" alt="supervisor-img">
+            </div>
+          </div>
+        </div>
+        <div class="card c4 shadow p-3 mb-3">
+          <div class="card-header border white">
+            <h5>Karma</h5>
+          </div> 
+          <div class="card-body">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur, dolorem assumenda atque possimus perferendis animi cupiditate quod dolores nemo delectus impedit maiores quos eveniet! Est perferendis voluptatem sunt molestiae laboriosam?</p>
+            <img src="images/icon-calculator.svg" class="rounded float-right" alt="">
+          </div>
+        </div>
+        </section> -->
